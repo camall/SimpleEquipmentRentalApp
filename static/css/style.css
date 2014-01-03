@@ -1,0 +1,43 @@
+body {
+	overflow-y: scroll;
+}
+.navbar {
+	margin-top: 10px;
+}
+.navbar-inner .username {
+	margin-top: 10px;
+}
+.equipment-instance-page h1, .equipment-list-page h1 {
+	display: inline-block;
+}
+.equipment-instance-page .btn-group, .equipment-instance-page .btn, .equipment-list-page .btn {
+	margin-top: 15px;
+}
+.equipment-instance-page .divider {
+	margin-top: 0px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+.equipment-list-page .equipment-list-table tr {
+	cursor: pointer;
+}
+.current-rentals-page table, .past-rentals-page table {
+	margin-top: 30px;
+}
+.admin-home-page .lead {
+	margin-bottom: 5px;
+}
+.admin-home-page #system-statistics {
+	margin-top: 35px;
+}
+.add-equipment-page .equipment-form button, .edit-equipment-page .equipment-form button, .reservation-page button {
+	margin-top: 15px;
+}
+.reservation-page #equipment-name, .reservation-page #model-number {
+	margin-top: 6px;
+}
